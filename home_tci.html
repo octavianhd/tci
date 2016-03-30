@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+	<lang="en">
+	<title>Termoconfort Instal</title>
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style_tci.css">
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="jumbotron text-center" id="umbra">
+			<canvas id="myCanvas" width="100" height="100" style="float:left;border:1px solid black;box-shadow:1px 1px 5px black;"></canvas>
+			<script>
+	  			var canvas= document.getElementById("myCanvas");
+	  			var ctx= canvas.getContext("2d");
+	  			//create gradient
+	  			var grd= ctx.createLinearGradient(0,100,0,0);
+	  			grd.addColorStop(0,"#cc0000");
+	  			grd.addColorStop(0.5,"pink");
+	  			grd.addColorStop(1,"#cc0000");
+	  			//fill gradient
+	  			ctx.fillStyle= grd;
+	  			ctx.fillRect(0,0,100,100);
+	  			//draw text
+	  			ctx.font= "50px Verdana";
+	 		 	ctx.strokeText("TCI",8,60);
+	 		 	ctx.font= "16px Verdana";
+	 		 	ctx.strokeText("Hunedoara",8,75);
+			</script>
+			<h2><b>TermoConfort Instal<small> Hunedoara</small></b></h2>
+			<h3>instalatii pentru confortul tau</h3>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!--indicatori-->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+		<!--wraper for slides-->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img id="img2" class="img-responsive" src="pics/113229679.jpg" alt="picture"> 
+				</div>
+				<div class="item">
+					<img id="img2" class="img-responsive" src="pics/129687008.jpg" alt="picture">
+				</div> 
+				<div class="item">
+					<img id="img2" class="img-responsive" src="pics/148465370.jpg" alt="picture">
+				</div>
+				<div class="item">
+					<img id="img2" class="img-responsive" src="pics/160500242.jpg" alt="picture">
+				</div>
+			</div>
+		<!-- left and right controls -->
+			<!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a> -->
+			</div>
+		</div>
+	</header>
+	    <div class="container">
+			<nav class="navbar navbar-inverse" id="umbra1">
+				<ul1 class="nav navbar-nav">
+					<li class="active"><a id="a1" href="home_tci.html">Home</a></li>
+					<li><a id="a1" href="despre_tci.html">Ce facem</a></li>
+					<li><a id="a1" href="recomandari_tci.html">Recomandari</a></li>
+					<li><a id="a1" href="contact_tci.html">Contact</a><li>
+				</ul1>
+		    </nav>
+	    </div>
+    </br>
+	<section>
+		<div class="container" id="container1">
+		</br>
+			<p>
+				<img id="img1" src="pics/blowtorch-596294__180.jpg" style="width:200px;height:150px;float:right;margin:10px;">
+				Bine ati venit pe site-ul S.C.Grup Termoconfort Instal S.R.L., Hunedoara. Daca doriti sa aflati care sunt servicile oferite de firma noastra va invitam sa aruncati o privire pe pagina <a href="despre_tci.html">"Ce facem"</a> unde puteti gasi o enumerare a unor servicii oferite de noi.
+			</p>
+			<p>
+				Politica firmei noastre este oferirea de servicii de calitate ridicata clientilor nostrii.Atat! O singura politica de cucerire a pietei: satisfacerea clientului in conditii de calitate ridicata intotdeauna. Pentru a va face o idee despre cateva lucrari executate de noi si parerea clientilor despre noi, va invitam sa vizitati pagina de <a href="recomandari_tci.html">recomandari.</a>
+			</p>
+			<p>
+				Pentru orice alte intrebari va rugam sa intrati pe pagina <a href="contact_tci.html">Contact</a>, pentru a ne trimite un mesaj, o cerere de evaluare a unei lucrari sau pentru a pune o simpla intrebare. Aveti un formular de contact in aceasta pagina, pe care va rugam sa-l completati cu datele dvs. si mesajul, iar noi va vom contacta cat mai repede pentru raspuns. Deasemenea aveti la dispozitie un numar de telefon la care suntem bucurosi sa raspundem in intervalul 9-17, de luni pana vineri.
+				<img id="img1" src="pics/construction-273291__180.jpg" style="width:200px;height:150px;float:right;margin:10px;">
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+				<img id="img1" src="pics/heating-706945__180.jpg" style="width:200px;height:150px;float:right;margin:10px;">
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+			</p>
+		</div>
+		<div class="container">
+			<ul class="pager">
+				<li class="previous"><a id="umbra1" href="contact_tci.html">Precedenta</a></li>
+				<li class="next"><a id="umbra1" href="despre_tci.html">Urmatoarea</a></li>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<nav class="navbar navbar-inverse" id="umbra1">
+				<ul1 class="nav navbar-nav">
+					<li class="active"><a id="a1" href="home_tci.html">Home</a></li>
+					<li><a id="a1" href="despre_tci.html">Ce facem</a></li>
+					<li><a id="a1" href="recomandari_tci.html">Recomandari</a></li>
+					<li><a id="a1" href="contact_tci.html">Contact</a><li>
+				</ul1>
+			</nav>
+		</div>
+		<div class="container">
+			<p><b>&copy Copyright Octavian Mos</b></p>
+		</div>
+	</footer>		
+</body>
+</html>
